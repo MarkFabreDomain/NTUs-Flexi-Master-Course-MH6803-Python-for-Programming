@@ -5,7 +5,6 @@ from visualization import VisualizationApp  # Import VisualizationApp
 from watchlist import Watchlist
 import json
 
-
 class DashboardApp:
     def __init__(self, root, user_name, budget, watchlist=None):
         self.root = root
